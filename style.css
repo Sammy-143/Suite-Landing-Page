@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Epilogue', sans-serif;
+}
+.container{
+    width: 78%;
+    margin: 4rem 10rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13.6875rem;
+    height: 3.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--Dark-Blue, #172339);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: -5rem;
+}
+span:hover{
+    cursor: pointer;
+    border: 1px solid var(--Dark-Blue, #172339);
+    background: var(--Dark-Blue, #172339);
+    color: #fff;
+}
+.curve{
+    position: relative;
+    left: 18rem;
+    bottom: 1rem;
+}
+.super{
+    width: 39.6875rem;
+    color: #172339;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.875rem; 
+    letter-spacing: -0.0625rem;
+    margin-bottom: 2rem;
+}
+.market{
+    width: 21.875rem;
+    font-family: Epilogue;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: 0.00625rem;
+    color: var(--Grey, #49566D);
+    margin-bottom: 3.5rem;
+}
+section{
+    display: flex;
+}
+.section-left{
+    margin-top: 8rem;
+    z-index: 1;
+}
+.request-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 3.8125rem;
+    border-radius: 0.375rem;
+    background: var(--Dark-Blue, #172339);
+    color: var(--Cream-White, #FAF8F6);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 2rem; 
+    letter-spacing: -0.01125rem;
+}
+.request-btn:hover{
+    cursor: pointer;
+    border-radius: 0.375rem;
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+.portrait{
+    position: relative;
+    right: 10.5rem;
+    top: 4rem;
+    width: 21.875rem;
+    height: 37.5rem;
+    border-radius: 0.9375rem;
+    background: radial-gradient(141.42% 141.42% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+}
+.number{
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem; 
+    letter-spacing: -0.03125rem;
+}
+.text{
+    color: var(--Grey, #49566D);
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    letter-spacing: 0.15625rem;
+    margin-bottom: 4rem;
+}
+.jeremy{
+    position: absolute;
+    left: 9rem;
+    bottom: 0;
+    width: 22.48813rem;
+    height: 36.84731rem;
+}
+.section-right{
+    margin-top: 10rem;
+    position: relative;
+    right: 3rem; 
+}
+.just-works{
+    background-image: url(assets/pattern-blur.svg);
+    display: flex;
+    width: 69.3125rem;
+    height: 34.0625rem;
+    border-radius: 0.9375rem;
+    background: var(--Dark-Blue, #172339);
+    position: relative;
+}
+.curve2{
+    width: 4.00306rem;
+    height: 3.25rem;
+    position: absolute; 
+    top: 11rem;
+    left: 50%;
+}
+.works{
+    color: #FAF8F6;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem; 
+    letter-spacing: -0.03125rem;
+    margin-top: 5rem;
+}
+.note{
+    width: 23rem;
+    color: var(--Cream, #F3EDE7);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem; 
+    letter-spacing: 0.00625rem;
+    margin-top: 3.5rem;
+}
+.robinson{
+    color: var(--Cream-White, #FAF8F6);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; 
+    letter-spacing: -0.01125rem;
+    margin-top: 2rem;
+}
+.CMO{
+    color: var(--Cream, #F3EDE7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    letter-spacing: 0.15625rem;
+}
+.works-right{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 45rem;
+}
+footer{
+    margin-top: 14rem;
+}
+.last{
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    width: 100%;
+    height: 29rem;
+    background: var(--Cream, #F3EDE7);
+    position: relative;
+    bottom: 30rem;
+    z-index: -1;
+}
+.copyright{
+    color: var(--Grey, #49566D);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: 0.00519rem;
+    
+}
+
+
+
+/* TABLET */
+@media  (min-width: 768px) and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+.container{
+    width: 85%;
+    margin: 3rem 3rem;
+}
+span{
+    margin-right: -0.5rem;
+}
+.portrait{
+    position: relative;
+    right: 7rem;
+    width: 17.5625rem;
+    height: 30.125rem;
+}
+.curve{
+    position: relative;
+    left: 12.5rem;
+    width: 14.44963rem;
+    height: 1.8125rem;
+}
+.super{
+    font-size: 3.5rem;
+    width: 30.8125rem;
+    /* width: 32.8125rem; */
+}
+.market{
+    font-size: 1.1rem;
+    width: 21.875rem;
+    /* width: 18.875rem; */
+}
+.section-right{
+    display: flex;
+    position: relative;
+    right: 47rem;
+    top: 30rem;
+}
+.companies, .languages{
+    margin-right: 9rem;
+}
+.just-works{
+    width: 100%;
+    height: 42.75rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.jeremy{
+    left: 12rem;
+    bottom: 30rem;
+    width: 15.75rem;
+    height: 25.125rem;
+}
+.works-right{
+    width: 100%;
+    top: 14rem;
+    left: 0;
+}
+.works{
+    font-size: 2.5rem;
+}
+.note{
+    width: 100%;
+}
+
+.curve2{
+    top: 15rem;
+    left: 40%;
+}
+footer{
+    margin-top: 28rem;
+}
+.last{
+    margin-top: 5rem;
+}
+aside{
+    position: relative;
+    bottom: 39rem;
+    height: 40rem;
+}
+}
+
+
+
+/* PHONES */
+@media (min-width: 320px) and (max-width: 767px ){
+    body{
+        height: 100vw;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 90%;
+        margin: 2rem 1rem;
+    }
+    span{
+        font-size: 0.875rem;
+        width: 11.375rem;
+        height: 3rem;
+        margin-right: -0.5rem;
+    }
+    .curve{
+        position: relative;
+        left: 9rem;
+        top: -0.5rem;
+        width: 9.467rem;
+        height: 1.1875rem;
+    }
+    .super{
+        font-size: 2.375rem;
+        width: 21.4375rem;
+        line-height: 2.75rem;
+        margin-bottom: 1.5rem;
+    }
+    .market{
+        width: 20rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.00556rem;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+    .section-left{
+       position: relative;
+       bottom: 5rem;
+    }
+    .portrait{
+        position: relative;
+        top: 25rem;
+        right: 21.5rem;
+        width: 100%;
+        height: 15rem;
+        flex-shrink: 0;
+    }
+    .section-right{
+        position: relative;
+        top: 33.5rem;
+        right: 34.5rem;
+    }
+    .jeremy{
+        position: relative;
+        bottom: 11rem;
+        left: 4rem;
+        width: 15.75rem;
+        height: 25.125rem;
+        flex-shrink: 0;
+    }
+    .just-works{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 46.75rem;
+        border-radius: 0.9375rem;
+        position: absolute;
+        left: 0;
+        margin-top: 30rem;
+        text-align: center;
+    }
+    .curve2{
+        top: 17rem;
+        left: 40%;
+        }
+    .works-right{
+        position: absolute;  
+        top: 16rem;
+        left: 0;  
+        }
+        .text{
+            margin-bottom: 2rem;
+        }
+    .last{
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        top: 84rem;
+        height: 8rem;
+        align-items: center;
+    }
+    
+    .suite{
+        width: 6rem;
+  }
+            
+    aside{
+        width: 23.5625rem;
+        height: 26.25rem;
+        position: relative;
+        top: 60rem;
+        }
+    }
+
+/* @media (max-width: 428px){
+    .works-right{
+        display: flex;
+        margin-left: 2rem;
+    }
+    .jeremy{
+        left: 5rem;
+    }
+}
+@media (max-width: 320px){
+    .market{
+        font-size: 1.0rem;
+    }
+    .jeremy{
+       left: 2rem;
+    }
+    .works-right{
+        left: -3.5rem;
+    }
+} */
+
+@media screen and (max-width: 360px){
+  .jeremy{
+   left: 3rem;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 420px){
+    .note{
+        left: 2rem;
+        margin-left: 1rem;
+    }
+    .jeremy{
+        left: 5rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .super{
+        width: 90%;
+        font-size: 2rem;
+    }
+    .curve{
+        left: 6rem;
+    }
+    .portrait{
+        right: 20rem;
+    }
+    .section-right{
+        margin-left: 3rem;
+    }
+    .jeremy{
+        left: 1.8rem;
+    }
+    .works{
+        margin-right: 3rem;
+    }
+    .note{
+       margin-left: -1.5rem;
+    }
+   
+}
